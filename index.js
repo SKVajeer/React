@@ -2,7 +2,7 @@ import React from  'react';
 import ReactDOM from 'react-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import image from './images/logo.jpg';
-import './style.css';
+import './css/style.css';
 
 
 //(1)create a nested header element using react.create element(h1,h2,h3indide a dive with class "title"
@@ -18,7 +18,7 @@ const header = React.createElement(
 
 //(2)create the same element using jsx
 const header1 = (
-        <div className='Title'>
+        <div className ="Title">
          <h1>"This is Heading-1 using jsx "</h1>
          <h2>"This is Heading-2 using jsx"</h2>
          <h3>"This is Heading-3 using jsx"</h3>
